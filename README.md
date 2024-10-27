@@ -44,3 +44,20 @@ Configurando recursos e dimensionamentos em máquinas virtuais:
   - Alguns runtimes apenas disponível em um tipo de SO (ex: Python apenas em Linux)
   - Hospedagem: sem servidor, premium e plano de serviço de app
 
+Contas de armazenamento:
+- Nome globalmente excclusivo
+- Redundância de armazenamento: LRS, ZRS, GRS, GZRS
+  - ![image](https://github.com/user-attachments/assets/fee49f98-e2f7-4f35-baaa-467857987d98)
+- Serviços de armazenamento
+  - Blob do Azure
+  - Disco do Azure
+  - Fila do Azure
+  - Arquivos do Azure
+  - Tabelas do Azure
+- Camadas de acesso Frequente, Esporádico, Frio, Arquivo Morto
+- Migrações para Azure
+  - Azure Data Box (caixa física robusta de armazenamento até 80TB para migração de dados)
+- Opções de gerenciamento de arquivos
+  - AzCopy (utilitário de linha de comando, unidirecional)
+  - Gerenciador de armazenamento do Azure (interface gráfica)
+  - Sincronização de arquivos do Azure
